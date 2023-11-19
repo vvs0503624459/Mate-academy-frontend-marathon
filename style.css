@@ -82,12 +82,17 @@ body {
 }
 .nav__link {
   text-decoration: none;
+  color: #292929;
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
   line-height: 22px;
   letter-spacing: 2px;
   text-transform: uppercase;
+  width: fit-content;
+}
+.nav__link:hover {
+  border-bottom: 1px solid #292929;
 }
 /* #endregion */
 
@@ -248,15 +253,15 @@ body {
   .recommended__products {
     flex-direction: column;
   }
-  .product{
+  .product {
     margin: 0 auto;
   }
   .product__photo {
     width: 80%;
-
     margin-bottom: 16px;
   }
   .footer {
-    height: 230px;}
+    height: 230px;
+  }
 }
 /* #endregion */
