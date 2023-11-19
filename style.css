@@ -213,11 +213,50 @@ body {
 
 /* #region media */
 @media (max-width: 640px) {
-  .main{
+  body {
+    font-size: 10px;
+  }
+
+  .main {
     padding: 20px;
+  }
+  .menu {
+    padding: 32px 60px;
+  }
+  .header {
+    padding: 32px 60px;
+  }
+  .header__title,
+  .recommended__title,
+  .categories__title,
+  .how-to-buy__title {
+    font-size: 28px;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+  }
+  .header__title {
+    margin-top: 20px;
+  }
+  .recommended__title,
+  .categories__title,
+  .how-to-buy__title {
+    margin-bottom: 32px;
+  }
+  .recommended {
+    margin-bottom: 60px;
   }
   .recommended__products {
     flex-direction: column;
   }
+  .product{
+    margin: 0 auto;
+  }
+  .product__photo {
+    width: 80%;
+
+    margin-bottom: 16px;
+  }
+  .footer {
+    height: 230px;}
 }
 /* #endregion */
